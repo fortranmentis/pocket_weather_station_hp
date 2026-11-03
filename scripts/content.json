@@ -1,64 +1,378 @@
 {
   "en": {
     "name": "Pocket Weather Station",
-    "title": "Pocket Weather Station — A little closer to the atmosphere.",
-    "description": "Turn your iPhone or iPad into a personal weather station. Explore barometric pressure, rain outlooks, outdoor altitude, LCD widgets, and Apple Watch integration.",
-    "skip": "Skip to content", "nav": ["Overview", "Experience", "How it works"], "explore": "Explore the app",
-    "eyebrow": "A PERSONAL WEATHER STATION. ALREADY IN YOUR POCKET.",
-    "hero": "A little closer to\nthe atmosphere.",
-    "heroBody": "Feel the change before you step outside. Your device’s barometer, local weather, and a little more perspective. All in one beautifully clear view.",
-    "heroLink": "Discover what’s inside", "howLink": "See how it works", "platforms": "For iPhone, iPad, and Apple Watch",
-    "releaseLabel": "Coming soon on the App Store", "releaseBody": "We’re preparing for launch.",
-    "heroCaption": "Real app screens. A closer look at the air around you.",
+    "title": "Pocket Weather Station — Barometer and Rain Outlook for iPhone",
+    "description": "Measure air pressure with your iPhone or iPad barometer, check the chance of rain, and follow altitude outdoors. LCD widgets and Apple Watch included.",
+    "skip": "Skip to content",
+    "nav": [
+      "Overview",
+      "Experience",
+      "How it works"
+    ],
+    "eyebrow": "BAROMETER · RAIN OUTLOOK · ALTITUDE",
+    "hero": "A weather station\nin your pocket.",
+    "heroBody": "Record air pressure with your iPhone’s built-in barometer. Check the chance of rain, follow your altitude on a hike, and see it all in one clear view.",
+    "heroLink": "See the features",
+    "howLink": "How the outlook works",
+    "platforms": "iPhone · iPad · Apple Watch",
+    "releaseLabel": "Coming soon on the App Store",
+    "releaseBody": "We’re preparing for launch.",
+    "heroCaption": "Real screens from the app.",
     "intro": [
-      ["01", "Sense the subtle.", "Watch atmospheric pressure and its changes with the barometer in a supported device."],
-      ["02", "See the bigger picture.", "Connect your observations with forecasts, nearby stations, and local climate."],
-      ["03", "Make it your everyday.", "From an umbrella check to a mountain walk. Find the view that fits your day."]
+      [
+        "01",
+        "Measure the pressure.",
+        "Record air pressure and how it changes with the barometer built into a supported iPhone or iPad."
+      ],
+      [
+        "02",
+        "Compare it with forecasts.",
+        "Your readings, nearby stations, and weather forecasts come together in one rain outlook."
+      ],
+      [
+        "03",
+        "Plan your day.",
+        "Rain before you head out, altitude on the trail. Pick the view you need."
+      ]
     ],
-    "experienceEyebrow": "THREE WAYS TO SEE YOUR DAY",
-    "experienceTitle": "Your weather.\nFrom every angle.",
-    "experienceBody": "One station, three perspectives. Switch between the everyday, the outdoors, and how you feel.",
-    "tabsLabel": "Explore app perspectives",
+    "experienceEyebrow": "EVERYDAY · OUTDOORS · HEALTH",
+    "experienceTitle": "Every day.\nAnd on the trail.",
+    "experienceBody": "Check the weather before you leave, record a hike, or look at pressure alongside your symptoms. Switch between three views for what you’re doing.",
+    "tabsLabel": "Choose a view",
     "experiences": [
-      {"id": "everyday", "label": "Everyday", "tag": "THE EVERYDAY VIEW", "title": "An umbrella?\nA better idea.", "body": "Start with the question that matters: will it rain? See the next 3, 6, 12, and 24 hours alongside pressure, temperature, and humidity.", "points": [["A forecast with context", "Open the rationale to see which observations and forecasts informed the outlook."], ["A heads-up, when available", "Pressure-drop alerts and departure reminders help you plan. Minute-rain alerts depend on regional WeatherKit coverage."]], "image": "01-home", "linkImage": "02-prediction-rationale", "link": "Look inside the forecast"},
-      {"id": "outdoor", "label": "Outdoor", "tag": "THE OUTDOOR VIEW", "title": "Follow your climb.\nAnd the pressure.", "body": "Take your station beyond the doorstep. Track barometric altitude, follow an altitude profile, and record your ascent and descent.", "points": [["A reference you can adjust", "Calibrate with a known altitude or sea-level pressure reference."], ["A little mountain awareness", "Review changing pressure and mountain-weather signals alongside your session. Check official forecasts and local conditions before heading out."]], "image": "05-outdoor", "linkImage": "05-outdoor", "link": "Explore the outdoor screen"},
-      {"id": "health", "label": "Health", "tag": "THE HEALTH VIEW", "title": "Notice patterns.\nKnow your context.", "body": "See the past 24 hours of pressure observations and the next 48 hours of model pressure alongside the symptoms you choose to record.", "points": [["Keep a personal record", "Log symptoms and explore recent pressure patterns. Optional Health integration supports headache reading and writing."], ["A gentle pressure reminder", "Set reminders for large pressure swings. These records help you explore patterns; they do not establish medical causation or provide a diagnosis."]], "image": "07-health", "linkImage": "07-health", "link": "Explore the health screen"}
+      {
+        "id": "everyday",
+        "label": "Everyday",
+        "tag": "TODAY’S WEATHER",
+        "title": "Need an umbrella\ntoday?",
+        "body": "See the chance of rain over the next 3, 6, 12, and 24 hours, with current pressure, temperature, and humidity on the same screen.",
+        "points": [
+          [
+            "See why",
+            "Open the rationale to see which observations and forecasts the outlook used."
+          ],
+          [
+            "A heads-up before you leave",
+            "Get alerts when pressure drops quickly or before you head out. Minute-by-minute rain alerts are available only where Apple Weather supports them."
+          ]
+        ],
+        "image": "01-home",
+        "linkImage": "02-prediction-rationale",
+        "link": "See the reasoning"
+      },
+      {
+        "id": "outdoor",
+        "label": "Outdoor",
+        "tag": "HIKING AND OUTDOORS",
+        "title": "Heading uphill?\nUse the altimeter.",
+        "body": "Take your station beyond the doorstep. Track barometric altitude, follow an altitude profile, and record your ascent and descent.",
+        "points": [
+          [
+            "A reference you can adjust",
+            "Calibrate with a known altitude or sea-level pressure reference."
+          ],
+          [
+            "A little mountain awareness",
+            "Review changing pressure and mountain-weather signals alongside your session. Check official forecasts and local conditions before heading out."
+          ]
+        ],
+        "image": "05-outdoor",
+        "linkImage": "05-outdoor",
+        "link": "Look at the outdoor screen"
+      },
+      {
+        "id": "health",
+        "label": "Health",
+        "tag": "SYMPTOMS AND PRESSURE",
+        "title": "Your symptoms.\nThat day’s pressure.",
+        "body": "See the past 24 hours of pressure observations and the next 48 hours of model pressure alongside the symptoms you choose to record.",
+        "points": [
+          [
+            "Keep a personal record",
+            "Log symptoms and explore recent pressure patterns. Optional Health integration supports headache reading and writing."
+          ],
+          [
+            "A gentle pressure reminder",
+            "Set reminders for large pressure swings. These records help you explore patterns; they do not establish medical causation or provide a diagnosis."
+          ]
+        ],
+        "image": "07-health",
+        "linkImage": "07-health",
+        "link": "Look at the health screen"
+      }
     ],
-    "lcdEyebrow": "A FAMILIAR FACE. A FRESH PERSPECTIVE.", "lcdTitle": "Analog spirit.\nDigital senses.",
-    "lcdBody": "Seven-segment numbers. A dot-matrix pressure profile. The quiet character of an outdoor instrument, reimagined for the screen you already carry.",
-    "lcdFeatures": ["A glanceable 24-hour pressure profile", "Light and dark LCD appearances", "A full-screen station display for your desk"],
-    "lcdLink": "Take a closer look", "lcdNote": "Station display shown on iPhone. iPad also supports a fixed-station setup; local recording requires a supported barometer.",
-    "flowEyebrow": "NEARBY PRESSURE FLOW", "flowTitle": "The weather\nhas a direction.",
-    "flowBody": "Look beyond a single reading. A map brings nearby airport observations and your available devices into one picture of changing pressure.",
-    "flowPoints": [["A map of change", "Compare three-hour pressure changes and spot recent sharp rises."], ["An estimated arrival", "When enough usable stations agree, explore an estimated direction, speed, and arrival time."], ["Context, clearly marked", "Station age and available evidence matter. Flow paths and arrival estimates are heuristic, with no guarantee of local weather timing."]], "flowLink": "Explore the pressure map",
-    "ecosystemEyebrow": "AT HOME ON YOUR DEVICES", "ecosystemTitle": "Less opening.\nMore knowing.", "ecosystemBody": "A quiet presence on your Home Screen, Lock Screen, and wrist. Your station, where a glance comes naturally.",
+    "lcdEyebrow": "A CLASSIC LCD LOOK",
+    "lcdTitle": "Big numbers.\nChanges at a glance.",
+    "lcdBody": "An LCD display inspired by outdoor instruments shows current pressure and the last 24 hours of change, in a light or dark theme.",
+    "lcdFeatures": [
+      "A glanceable 24-hour pressure profile",
+      "Light and dark LCD appearances",
+      "A full-screen station display for your desk"
+    ],
+    "lcdLink": "Look at the LCD screen",
+    "lcdNote": "Station display shown on iPhone. iPad also supports a fixed-station setup; local recording requires a supported barometer.",
+    "flowEyebrow": "NEARBY PRESSURE",
+    "flowTitle": "Pressure around you,\non a map.",
+    "flowBody": "Readings from nearby airports and your own devices, together on one map. See where pressure is rising or falling, and where a big change started.",
+    "flowPoints": [
+      [
+        "Rising and falling pressure",
+        "Compare how much pressure changed over the last three hours, and find places where it recently jumped."
+      ],
+      [
+        "Where the change is heading",
+        "When enough stations show a usable signal, the app estimates direction, speed, and arrival time."
+      ],
+      [
+        "Arrival times are estimates",
+        "Results depend on how recent and complete the station data is. Paths and arrival times are rough estimates, not a promise of when your weather will change."
+      ]
+    ],
+    "flowLink": "Look at the map",
+    "ecosystemEyebrow": "WIDGETS AND DEVICES",
+    "ecosystemTitle": "Weather at a glance.\nNo need to open the app.",
+    "ecosystemBody": "On your Home Screen, Lock Screen, and wrist. Checking pressure and the weather takes just a glance.",
     "ecosystemCards": [
-      {"tag": "HOME SCREEN", "title": "A little atmosphere.\nRight at home.", "body": "Choose an LCD barometer or a rain-outlook widget. Pressure, trend, and available weather context stay together.", "image": "13-widgets"},
-      {"tag": "LOCK SCREEN", "title": "Your pressure.\nFront and center.", "body": "A recording barometer Live Activity keeps the LCD view close. Updates depend on iOS and app execution.", "image": "14-lock-screen"},
-      {"tag": "CONNECTED DEVICES", "title": "One account.\nMore perspective.", "body": "Compare same-account iCloud stations. A paired Apple Watch displays summaries and can provide auxiliary pressure readings.", "image": "11-connected-devices"}
+      {
+        "tag": "HOME SCREEN",
+        "title": "A tiny station\non your Home Screen.",
+        "body": "Choose an LCD barometer or a rain-outlook widget. Pressure, trend, and available weather context stay together.",
+        "image": "13-widgets"
+      },
+      {
+        "tag": "LOCK SCREEN",
+        "title": "A barometer\non your Lock Screen.",
+        "body": "A recording barometer Live Activity keeps the LCD view close. Updates depend on iOS and app execution.",
+        "image": "14-lock-screen"
+      },
+      {
+        "tag": "CONNECTED DEVICES",
+        "title": "All your devices’ readings\nin one place.",
+        "body": "Compare same-account iCloud stations. A paired Apple Watch displays summaries and can provide auxiliary pressure readings.",
+        "image": "11-connected-devices"
+      }
     ],
-    "techEyebrow": "BEHIND THE OUTLOOK", "techTitle": "Three perspectives.\nOne clearer outlook.", "techBody": "A pressure reading tells part of the story. Pocket Weather Station combines personal observations, historical context, and a model forecast to build its rain outlook.",
-    "ingredients": [["25", "Your pressure", "Altitude-corrected pressure trends, with available climate and moisture context."], ["10", "Local history", "Historical rain frequency for the area, season, and time of day."], ["65", "Model forecasts", "WeatherKit or Open-Meteo precipitation forecasts for the larger picture."]],
+    "techEyebrow": "HOW THE RAIN OUTLOOK WORKS",
+    "techTitle": "Pressure, forecasts,\nand local history.",
+    "techBody": "The rain outlook combines three sources: pressure measured on your device, how often it has rained here before, and a weather forecast.",
+    "ingredients": [
+      [
+        "25",
+        "Your pressure",
+        "Altitude-corrected pressure trends, with available climate and moisture context."
+      ],
+      [
+        "10",
+        "Local history",
+        "Historical rain frequency for the area, season, and time of day."
+      ],
+      [
+        "65",
+        "Model forecasts",
+        "Apple Weather precipitation forecasts, with Open-Meteo as a fallback when Apple Weather is unavailable."
+      ]
+    ],
     "weightNote": "Default weights when all three inputs are available. The blend changes when data is missing. Percentages describe the blend, not forecast accuracy.",
-    "compareTag": "LOOK AT THE EVIDENCE", "compareTitle": "A forecast worth\nlooking back on.", "compareBody": "Compare saved predictions with later outcomes. Explore reliability charts and paired results across the baseline, model-wind, and observed-wind engines.", "compareNote": "Screens show illustrative data. Comparison scores are examples and do not demonstrate real-world forecast improvement.", "compareLink": "Inspect the comparison",
-    "galleryEyebrow": "THE DETAILS MAKE THE DIFFERENCE", "galleryTitle": "Meet your station.", "galleryBody": "Fourteen real app screens. Open any one for a closer look.", "filters": ["All screens", "Forecast & climate", "Pressure & outdoors", "Your devices"], "galleryLabel": "App screenshot gallery", "previous": "Previous screens", "next": "Next screens", "openImage": "Enlarge screenshot", "galleryNote": "Screenshots show the English interface and illustrative values. The app supports English and Korean. Website language does not change the supplied screenshots.", "screenCount": "screens", "close": "Close screenshot", "previousImage": "Previous screenshot", "nextImage": "Next screenshot",
-    "privacyEyebrow": "PERSONAL BY NATURE", "privacyTitle": "Your observations.\nYour perspective.", "privacyBody": "Know what is stored, what is shared, and which permissions make your station work.",
-    "privacyCards": [["On your device", "Detailed observations and symptoms are stored locally. Export observation and diagnostic records as a ZIP when you want to inspect them."], ["Your private iCloud", "Same-account sharing is on by default. It sends device metadata, rounded location, and five-minute pressure summaries to your private CloudKit database. Turning it off stops new sync attempts; local deletion does not delete existing cloud records."], ["Permissions with a purpose", "Motion and location support pressure tracking and correction. Health access is optional. Weather and elevation requests send coordinates or an area to their providers."]],
-    "privacyLink": "Read the data-handling details", "faqTitle": "A few things to know.",
-    "faqs": [
-      ["Which devices can I use?", "The app targets iPhone and iPad on iOS/iPadOS 17 or later, with an optional Apple Watch companion on watchOS 10 or later. Local pressure measurement requires a supported built-in barometer. The Watch complements the phone; it is not a standalone forecast engine."],
-      ["Does my phone measure temperature and humidity?", "Pressure comes from the supported device’s barometer. Temperature and relative humidity come from weather providers for your area; they are not local phone-sensor measurements."],
-      ["What works without a connection?", "Local sensor recording, stored observations, and the bundled climate classification can remain useful without a live forecast connection once the needed location is available. Fresh forecasts, airport reports, historical downloads, and iCloud syncing require network access."],
-      ["Can I turn an iPad into a desk station?", "Yes, on a device with a supported barometer. Keep it at a fixed location, enable Reference station mode, start recording, and open Station display. The full-screen view keeps the display awake while open. External power is recommended for long sessions."],
-      ["Are background updates and alerts continuous?", "iOS controls background execution, widget refreshes, and Live Activities. Permissions, power settings, available data, and region affect updates and alerts. Continuous sensor collection and exact delivery times are not guaranteed."],
-      ["How can I try the app?", "Pocket Weather Station is coming soon to the App Store. We’re preparing for launch. In the meantime, you can explore the source project and build instructions. Building version 0.1.0 on a device requires Xcode, signing, and the applicable Apple services."]
+    "compareTag": "PREDICTIONS VS. OUTCOMES",
+    "compareTitle": "See whether\nthe forecast was right.",
+    "compareBody": "The app saves predictions from several methods at the same moment, then checks them against what actually happened. Compare the standard method with two wind-aware methods in scores and charts.",
+    "compareNote": "Screens show illustrative data. Comparison scores are examples and do not demonstrate real-world forecast improvement.",
+    "compareLink": "Look at the comparison",
+    "galleryEyebrow": "SCREEN BY SCREEN",
+    "galleryTitle": "Every screen, up close.",
+    "galleryBody": "Fourteen real app screens. Tap any one to enlarge it.",
+    "filters": [
+      "All screens",
+      "Forecast & climate",
+      "Pressure & outdoors",
+      "Your devices"
     ],
-    "closing": "Small device.\nWide perspective.", "closingBody": "Take a closer look at Pocket Weather Station.", "projectLink": "Explore the project", "sourceLink": "Website source", "docsLink": "App documentation", "backTop": "Back to top",
-    "footerNote": "An independent app project. Not affiliated with or endorsed by Apple. Apple, iPhone, iPad, and Apple Watch are trademarks of Apple Inc.", "footerCaution": "Weather estimates depend on available data. Use official weather information for outdoor decisions. Health features support personal observation, not diagnosis."
+    "galleryLabel": "App screenshot gallery",
+    "previous": "Previous screens",
+    "next": "Next screens",
+    "openImage": "Enlarge screenshot",
+    "galleryNote": "Screenshots show the English interface and illustrative values. The app supports English and Korean. Website language does not change the supplied screenshots.",
+    "screenCount": "{n} screens",
+    "close": "Close screenshot",
+    "previousImage": "Previous screenshot",
+    "nextImage": "Next screenshot",
+    "privacyEyebrow": "DATA AND PRIVACY",
+    "privacyTitle": "Where your\ndata lives.",
+    "privacyBody": "From records that stay on your device to what syncs through iCloud. Here’s how Pocket Weather Station handles your data.",
+    "privacyCards": [
+      [
+        "Records stay on your device",
+        "Detailed observations and symptom records are stored on your device. Export observation and diagnostic records as a ZIP whenever you want to look at them."
+      ],
+      [
+        "Sharing between devices uses iCloud",
+        "Sharing between your own devices is on by default. It stores a device name, an approximate location, and five-minute pressure summaries in your private iCloud storage. Deleting data in the app does not remove these iCloud records; delete them from iCloud storage settings."
+      ],
+      [
+        "Permissions match features",
+        "Motion and location access are used to record and correct pressure. Health access is optional. To fetch weather and elevation, the app sends an approximate location to those services."
+      ]
+    ],
+    "privacyLink": "Read the privacy policy",
+    "faqTitle": "A few things to know.",
+    "faqs": [
+      [
+        "Which devices can I use?",
+        "The app targets iPhone and iPad on iOS/iPadOS 17 or later, with an optional Apple Watch companion on watchOS 10 or later. Local pressure measurement requires a supported built-in barometer. The Watch complements the phone; it is not a standalone forecast engine."
+      ],
+      [
+        "Does my phone measure temperature and humidity?",
+        "Pressure comes from the supported device’s barometer. Temperature and relative humidity come from weather providers for your area; they are not local phone-sensor measurements."
+      ],
+      [
+        "What works without a connection?",
+        "Local sensor recording, stored observations, and the bundled climate classification can remain useful without a live forecast connection once the needed location is available. Fresh forecasts, airport reports, historical downloads, and iCloud syncing require network access."
+      ],
+      [
+        "Can I turn an iPad into a desk station?",
+        "Yes, on a device with a supported barometer. Keep it at a fixed location, enable Reference station mode, start recording, and open Station display. The full-screen view keeps the display awake while open. External power is recommended for long sessions."
+      ],
+      [
+        "Are background updates and alerts continuous?",
+        "iOS controls background execution, widget refreshes, and Live Activities. Permissions, power settings, available data, and region affect updates and alerts. Continuous sensor collection and exact delivery times are not guaranteed."
+      ],
+      [
+        "Where can I get the app?",
+        "Pocket Weather Station is coming soon to the App Store. We’ll add the App Store link to this page at launch."
+      ]
+    ],
+    "closing": "Today’s weather,\nin more detail.",
+    "closingBody": "Pocket Weather Station is coming soon to the App Store.",
+    "sourceLink": "Website source",
+    "backTop": "Back to top",
+    "footerNote": "An independent app project. Not affiliated with or endorsed by Apple. Apple, iPhone, iPad, and Apple Watch are trademarks of Apple Inc.",
+    "footerCaution": "Weather estimates depend on available data. Use official weather information for outdoor decisions. Health features support personal observation, not diagnosis.",
+    "socialAlt": "Pocket Weather Station app screens on iPhone",
+    "filterLabel": "Filter screenshots",
+    "privacyPolicy": "Privacy Policy",
+    "support": "Support",
+    "home": "Home",
+    "privacyPage": {
+      "title": "Privacy Policy",
+      "description": "How Pocket Weather Station handles pressure records, location, iCloud sharing, and Health data.",
+      "updated": "Last updated: November 3, 2026",
+      "intro": "Pocket Weather Station has no accounts, no advertising, and no analytics or tracking tools. The developer does not run a server for the app and does not receive your records. This policy explains where your data is stored and what is sent to other services so the app can work.",
+      "sections": [
+        [
+          "Stored on your device",
+          [
+            "Pressure, altitude, observations, calibrations, predictions, and symptom records are stored on your device.",
+            "Current automatic retention: raw pressure samples for about 48 hours, minute observations, calibrations, and predictions for 365 days, event logs for 90 days, and raw Apple Watch readings for 30 days.",
+            "To delete these records, choose Settings → Delete all data in the app, or delete the app."
+          ]
+        ],
+        [
+          "Sharing between your devices (iCloud)",
+          [
+            "Use with other devices is on by default. When it is on, the app stores a device name (“iPhone” or “iPad” unless you change it), a location rounded to about 100 m, and five-minute pressure summaries in your private iCloud database. Only devices signed in to the same Apple Account can read it. The developer cannot access it.",
+            "Turning the setting off stops new uploads. Delete all data in the app does not delete records already in iCloud. The app removes its own older pressure summaries on a best-effort basis, but the device record has no automatic expiry.",
+            "To remove the app’s iCloud records, go to iPhone Settings → [your name] → iCloud → Manage Account Storage, select Pocket Weather Station if it is listed, and delete its data. Apple’s iCloud terms and privacy policy apply to data stored in iCloud."
+          ]
+        ],
+        [
+          "Weather, elevation, and station services",
+          [
+            "To fetch forecasts, history, elevation, and nearby station reports, the app sends location information to these services: Apple WeatherKit, Open-Meteo (forecast, historical weather, and elevation), and the NOAA Aviation Weather Center (airport reports).",
+            "Forecast and history requests use coordinates rounded to two decimal places (about 1 km). Airport report requests send a surrounding area. Elevation requests use points on a grid of about 100 m around you.",
+            "Like any internet request, these services also receive your IP address. Their own privacy policies apply. Symptom records and raw sensor histories are never sent to them."
+          ]
+        ],
+        [
+          "Health",
+          [
+            "Health access is optional. If you allow it, the app can read and save headache records. Other symptoms stay in the app.",
+            "Health data is not used for advertising, is not shared with third parties, and is not sent to weather services."
+          ]
+        ],
+        [
+          "Permissions",
+          [
+            "Motion & Fitness: reads the barometer and detects movement, so pressure changes from walking or elevators can be separated from weather.",
+            "Location: finds local forecasts, nearby stations, and altitude references, and corrects pressure readings. If you choose Always, it also keeps pressure recording running in the background.",
+            "Notifications: pressure, rain, and departure alerts you turn on."
+          ]
+        ],
+        [
+          "Widgets, Apple Watch, and Live Activities",
+          [
+            "Widgets, the Apple Watch app, and Live Activities use data shared on your devices. Symptom entries made on Apple Watch are sent to your iPhone. Live Activities do not use a push server."
+          ]
+        ],
+        [
+          "Exports",
+          [
+            "ZIP exports you create can include observation locations, timestamps, and event details. You choose where to save or share them."
+          ]
+        ],
+        [
+          "Changes and contact",
+          [
+            "If this policy changes, we will update this page and the date above. For questions, see the Support page."
+          ]
+        ]
+      ]
+    },
+    "supportPage": {
+      "title": "Support",
+      "description": "Help with Pocket Weather Station: requirements, common questions, and how to get in touch.",
+      "intro": "Need help with Pocket Weather Station? Start with the answers below. If you can’t find what you need, get in touch.",
+      "contactTitle": "Contact",
+      "contactBody": "Report a problem or ask a question by opening an issue on GitHub. Issues are public, so please don’t include personal information such as your exact location.",
+      "contactLink": "Open a GitHub issue",
+      "sections": [
+        [
+          "Requirements",
+          [
+            "iPhone or iPad with iOS/iPadOS 17 or later. Measuring pressure requires a device with a built-in barometer. The Apple Watch app requires watchOS 10 or later and a paired iPhone."
+          ]
+        ],
+        [
+          "No pressure reading",
+          [
+            "Make sure Motion & Fitness access is allowed in iPhone Settings → Privacy & Security → Motion & Fitness, and that the app has permission. Devices without a barometer can still show forecasts but can’t measure pressure."
+          ]
+        ],
+        [
+          "Altitude looks wrong",
+          [
+            "Barometric altitude drifts as the weather changes. Calibrate it with a known altitude or the current sea-level pressure on the Outdoor screen."
+          ]
+        ],
+        [
+          "The rain outlook is missing or limited",
+          [
+            "Forecasts need an internet connection and location access. Minute-by-minute rain alerts are available only where Apple Weather supports them. When some data is missing, the outlook uses what is available."
+          ]
+        ],
+        [
+          "Recording, widgets, or alerts stop updating",
+          [
+            "iOS controls background activity, widget refreshes, and Live Activities. Low Power Mode, permissions, and battery settings affect them. For a desk station, keep Station display open and connect power."
+          ]
+        ],
+        [
+          "My other devices don’t appear",
+          [
+            "Sign in to the same Apple Account with iCloud on each device, and turn on Use with other devices in the app’s Settings. Devices outside the selected range are shown without being blended into your trend."
+          ]
+        ],
+        [
+          "Deleting your data",
+          [
+            "Choose Settings → Delete all data in the app. Records already shared through iCloud are deleted separately from iPhone Settings → [your name] → iCloud → Manage Account Storage. See the Privacy Policy for details."
+          ]
+        ]
+      ]
+    }
   },
   "ko": {
     "name": "기상대",
-    "title": "기상대 — 내 손안의 작은 기상대.",
+    "title": "기상대 (Pocket Weather Station) — iPhone 기압계·강수 전망 앱",
     "description": "내 손안의 작은 기상대. iPhone과 iPad로 기압을 재고, 비가 올 가능성과 고도 변화를 살펴보세요. LCD 위젯과 Apple Watch 연동도 지원합니다.",
     "skip": "본문으로 건너뛰기",
     "nav": [
@@ -66,7 +380,6 @@
       "주요 기능",
       "예측 원리"
     ],
-    "explore": "앱 둘러보기",
     "eyebrow": "기압 관측부터 강수 전망까지",
     "hero": "내 손안의\n작은 기상대.",
     "heroBody": "iPhone의 기압계로 날씨의 변화를 기록하세요. 비가 올 가능성부터 산행 중 고도까지, 일상에 필요한 정보를 한곳에서 확인할 수 있습니다.",
@@ -111,7 +424,7 @@
           ],
           [
             "외출 전에 한 번 더",
-            "기압이 급격히 떨어질 때나 외출 전에 알림을 받아보세요. 비가 곧 오는지 알려주는 분 단위 알림은 WeatherKit 지원 지역과 데이터 제공 여부에 따라 달라집니다."
+            "기압이 급격히 떨어질 때나 외출 전에 알림을 받아보세요. 곧 비가 온다는 분 단위 알림은 Apple 날씨가 지원하는 지역에서만 받을 수 있습니다."
           ]
         ],
         "image": "01-home",
@@ -179,11 +492,11 @@
       ],
       [
         "변화가 다가오는 방향",
-        "여러 관측소에서 유효한 신호가 모이면, 이동 방향과 속도를 계산해 예상 도착 시각을 보여줍니다."
+        "여러 관측소에서 쓸 만한 신호가 모이면, 이동 방향과 속도를 계산해 예상 도착 시각을 보여줍니다."
       ],
       [
         "도착 시각은 추정치",
-        "관측 자료의 시각과 상태에 따라 결과가 달라집니다. 이동 경로와 도착 시각은 경험적 추정이며, 실제 날씨가 바뀌는 시각을 보장하지 않습니다."
+        "관측 자료가 얼마나 최근이고 충분한지에 따라 결과가 달라집니다. 이동 경로와 도착 시각은 대략적인 추정이며, 실제 날씨가 바뀌는 시각을 보장하지 않습니다."
       ]
     ],
     "flowLink": "지도 자세히 보기",
@@ -212,7 +525,7 @@
     ],
     "techEyebrow": "강수 가능성을 계산하는 방법",
     "techTitle": "기압과 예보,\n과거 기록까지.",
-    "techBody": "내 기기에서 잰 기압, 이 지역에 비가 내렸던 기록, 수치 예보를 함께 참고합니다. 서로 다른 세 자료를 바탕으로 비가 올 가능성을 계산합니다.",
+    "techBody": "내 기기에서 잰 기압, 이 지역에 비가 내렸던 기록, 날씨 예보를 함께 참고합니다. 서로 다른 세 자료를 바탕으로 비가 올 가능성을 계산합니다.",
     "ingredients": [
       [
         "25",
@@ -227,15 +540,15 @@
       [
         "65",
         "날씨 예보",
-        "WeatherKit이나 Open-Meteo에서 제공하는 강수 예보를 활용합니다."
+        "Apple 날씨의 강수 예보를 쓰고, Apple 날씨를 쓸 수 없을 때는 Open-Meteo 예보로 대신합니다."
       ]
     ],
     "weightNote": "세 자료가 모두 있을 때의 기본 반영 비율입니다. 자료가 부족하면 비율이 달라집니다. 백분율은 각 자료의 반영 비율을 뜻하며, 예측 정확도를 나타내는 수치는 아닙니다.",
     "compareTag": "예측과 실제 결과 비교",
     "compareTitle": "예보가 맞았는지도\n확인할 수 있도록.",
-    "compareBody": "같은 시점에 남긴 각 엔진의 예측을 이후 결과와 비교합니다. 기본 엔진과 두 가지 바람 반영 엔진이 어떻게 달랐는지, 점수와 신뢰도 그래프로 살펴보세요.",
+    "compareBody": "앱은 같은 시점에 여러 방식으로 계산한 예측을 남겨두었다가, 나중에 실제 날씨와 맞춰봅니다. 기본 방식과 바람 정보를 더한 두 방식이 어떻게 달랐는지 점수와 그래프로 살펴보세요.",
     "compareNote": "화면의 점수와 그래프는 예시입니다. 실제 환경에서 예측 성능이 좋아졌다는 뜻은 아닙니다.",
-    "compareLink": "엔진 비교 자세히 보기",
+    "compareLink": "예측 방식 비교 자세히 보기",
     "galleryEyebrow": "화면으로 살펴보기",
     "galleryTitle": "기상대, 자세히 보기.",
     "galleryBody": "실제 앱 화면 14장을 모았습니다. 보고 싶은 화면을 눌러 확대해보세요.",
@@ -250,7 +563,7 @@
     "next": "다음 화면 보기",
     "openImage": "스크린샷 확대",
     "galleryNote": "화면은 영문 버전으로 촬영했으며, 표시된 수치는 예시입니다. 앱은 한국어와 영어를 지원합니다. 이 페이지에서도 스크린샷은 영문으로 표시됩니다.",
-    "screenCount": "개 화면",
+    "screenCount": "{n}개 화면",
     "close": "스크린샷 닫기",
     "previousImage": "이전 스크린샷",
     "nextImage": "다음 스크린샷",
@@ -264,14 +577,14 @@
       ],
       [
         "기기 간 공유는 iCloud로",
-        "같은 계정의 기기끼리 공유하는 기능은 기본으로 켜져 있습니다. 기기 정보와 반올림한 위치, 5분 단위 기압 요약을 비공개 CloudKit 데이터베이스로 보냅니다. 공유를 끄면 새 동기화 시도가 멈춥니다. 기기의 데이터를 삭제해도 기존 클라우드 기록까지 지워지지는 않습니다."
+        "내 기기끼리 기록을 나누는 기능은 기본으로 켜져 있습니다. 기기 이름과 대략적인 위치, 5분 단위 기압 요약을 내 iCloud 계정의 비공개 저장 공간에 보관합니다. 앱에서 데이터를 삭제해도 iCloud 기록은 남으니, iCloud 저장 공간 설정에서 따로 지워주세요."
       ],
       [
         "권한은 기능에 맞게",
-        "동작·위치 권한은 기압을 기록하고 보정하는 데 쓰입니다. 건강 앱 접근은 선택 사항입니다. 날씨나 고도를 조회할 때는 해당 제공 업체에 좌표 또는 주변 영역을 전달합니다."
+        "동작·위치 권한은 기압을 기록하고 보정하는 데 쓰입니다. 건강 앱 접근은 선택 사항입니다. 날씨와 고도 정보를 받아올 때는 해당 서비스에 대략적인 위치를 보냅니다."
       ]
     ],
-    "privacyLink": "데이터 처리 방식 자세히 보기",
+    "privacyLink": "개인정보 처리방침 전체 보기",
     "faqTitle": "자주 묻는 질문.",
     "faqs": [
       [
@@ -296,32 +609,250 @@
       ],
       [
         "앱은 어디서 받을 수 있나요?",
-        "App Store 출시를 준비하고 있습니다. 출시 전에는 GitHub에서 소스와 빌드 방법을 살펴볼 수 있습니다. 현재 소스 버전은 0.1.0입니다. 직접 기기에 빌드하려면 Xcode와 서명, 필요한 Apple 서비스 설정을 갖춰야 합니다."
+        "App Store 출시를 준비하고 있습니다. 출시되면 이 페이지에 App Store 링크를 올리겠습니다."
       ]
     ],
     "closing": "오늘의 날씨를\n조금 더 자세히.",
-    "closingBody": "기상대의 기능과 개발 내용을 더 알아보세요.",
-    "projectLink": "프로젝트 알아보기",
+    "closingBody": "기상대는 App Store 출시를 준비하고 있습니다.",
     "sourceLink": "웹사이트 소스",
-    "docsLink": "앱 문서",
     "backTop": "맨 위로",
     "footerNote": "Apple과 제휴하거나 Apple의 보증을 받지 않은 독립 앱 프로젝트입니다. Apple, iPhone, iPad, Apple Watch는 Apple Inc.의 상표입니다.",
-    "footerCaution": "날씨 예측은 확보한 자료에 따라 달라집니다. 야외 활동을 계획할 때는 공식 기상 정보도 확인하세요. 건강 기능은 증상과 기압을 함께 살펴보는 용도이며, 진단을 제공하지 않습니다."
+    "footerCaution": "날씨 예측은 확보한 자료에 따라 달라집니다. 야외 활동을 계획할 때는 공식 기상 정보도 확인하세요. 건강 기능은 증상과 기압을 함께 살펴보는 용도이며, 진단을 제공하지 않습니다.",
+    "socialAlt": "iPhone에서 본 기상대 앱 화면",
+    "filterLabel": "화면 분류",
+    "privacyPolicy": "개인정보 처리방침",
+    "support": "지원",
+    "home": "홈",
+    "privacyPage": {
+      "title": "개인정보 처리방침",
+      "description": "기상대 앱이 기압 기록, 위치, iCloud 공유, 건강 데이터를 다루는 방식입니다.",
+      "updated": "최종 수정일: 2026년 11월 3일",
+      "intro": "기상대에는 계정, 광고, 분석·추적 도구가 없습니다. 개발자는 앱을 위한 서버를 운영하지 않으며 사용자의 기록을 받지 않습니다. 이 문서는 데이터가 어디에 저장되고, 앱이 동작하기 위해 어떤 정보가 외부 서비스로 전달되는지 설명합니다.",
+      "sections": [
+        [
+          "기기에 저장하는 정보",
+          [
+            "기압, 고도, 관측값, 보정값, 예측, 증상 기록은 기기에 저장합니다.",
+            "현재 자동 보관 기간은 원시 기압 샘플 약 48시간, 1분 관측·보정·예측 365일, 이벤트 로그 90일, Apple Watch 원시 측정값 30일입니다.",
+            "기록을 지우려면 앱의 설정 → ‘모든 데이터 삭제’를 누르거나 앱을 삭제하세요."
+          ]
+        ],
+        [
+          "내 기기 간 공유 (iCloud)",
+          [
+            "‘다른 기기와 함께 쓰기’는 기본으로 켜져 있습니다. 켜져 있으면 기기 이름(직접 바꾸지 않았다면 ‘iPhone’ 또는 ‘iPad’), 약 100m 단위로 반올림한 위치, 5분 단위 기압 요약을 내 iCloud 계정의 비공개 데이터베이스에 저장합니다. 같은 Apple 계정에 로그인한 기기만 읽을 수 있고, 개발자는 접근할 수 없습니다.",
+            "이 설정을 끄면 새로 올리지 않습니다. 앱의 ‘모든 데이터 삭제’는 이미 iCloud에 올라간 기록을 지우지 않습니다. 오래된 기압 요약은 앱이 가능한 범위에서 정리하지만, 기기 정보에는 자동 만료 기간이 없습니다.",
+            "iCloud에 남은 기록을 지우려면 iPhone 설정 → [내 이름] → iCloud → 계정 저장 공간 관리에서 기상대(Pocket Weather Station)가 보이면 선택해 데이터를 삭제하세요. iCloud에 저장된 데이터에는 Apple의 iCloud 약관과 개인정보 처리방침이 적용됩니다."
+          ]
+        ],
+        [
+          "날씨·고도·관측소 서비스",
+          [
+            "예보, 과거 날씨, 고도, 주변 관측소 자료를 받아오기 위해 다음 서비스에 위치 정보를 보냅니다: Apple WeatherKit, Open-Meteo(예보·과거 날씨·고도), 미국 해양대기청(NOAA) 항공기상센터(공항 관측).",
+            "예보와 과거 날씨는 소수점 둘째 자리(약 1km)로 반올림한 좌표를, 공항 관측은 주변 영역을, 고도는 주변 약 100m 간격의 지점을 사용합니다.",
+            "일반적인 인터넷 요청과 마찬가지로 이 서비스들은 IP 주소도 받습니다. 각 서비스의 개인정보 처리방침이 적용됩니다. 증상 기록과 원시 센서 기록은 이 서비스들로 보내지 않습니다."
+          ]
+        ],
+        [
+          "건강 데이터",
+          [
+            "건강 앱 접근은 선택 사항입니다. 허용하면 두통 기록을 가져오거나 저장할 수 있습니다. 그 밖의 증상은 앱 안에만 남습니다.",
+            "건강 데이터는 광고에 쓰지 않고, 제3자와 공유하지 않으며, 날씨 서비스로 보내지 않습니다."
+          ]
+        ],
+        [
+          "권한",
+          [
+            "동작 및 피트니스: 기압계를 읽고 움직임을 감지해, 걷거나 엘리베이터를 탈 때의 기압 변화를 날씨 변화와 구분합니다.",
+            "위치: 지역 예보, 주변 관측소, 고도 기준을 찾고 기압 값을 보정하는 데 씁니다. ‘항상 허용’을 선택하면 앱을 닫아도 기압 기록을 이어갑니다.",
+            "알림: 직접 켠 기압·강수·외출 알림을 보냅니다."
+          ]
+        ],
+        [
+          "위젯, Apple Watch, 실시간 현황",
+          [
+            "위젯과 Apple Watch 앱, 실시간 현황은 기기 안에서 공유한 데이터를 사용합니다. Apple Watch에서 남긴 증상 기록은 iPhone으로 전달됩니다. 실시간 현황은 푸시 서버를 쓰지 않습니다."
+          ]
+        ],
+        [
+          "내보내기",
+          [
+            "직접 만든 ZIP 파일에는 관측 위치, 시각, 이벤트 내용이 들어갈 수 있습니다. 저장하거나 공유할 곳은 사용자가 정합니다."
+          ]
+        ],
+        [
+          "변경과 문의",
+          [
+            "처리방침이 바뀌면 이 페이지와 위의 날짜를 고칩니다. 문의는 지원 페이지를 참고하세요."
+          ]
+        ]
+      ]
+    },
+    "supportPage": {
+      "title": "지원",
+      "description": "기상대 앱 지원: 지원 기기, 자주 묻는 질문, 문의 방법.",
+      "intro": "기상대를 쓰다가 궁금한 점이 있나요? 아래 답변을 먼저 확인해보세요. 원하는 답을 찾지 못했다면 문의해주세요.",
+      "contactTitle": "문의하기",
+      "contactBody": "문제 신고나 질문은 GitHub 이슈로 남겨주세요. 이슈는 공개되므로 정확한 위치 같은 개인정보는 적지 마세요.",
+      "contactLink": "GitHub 이슈 남기기",
+      "sections": [
+        [
+          "지원 기기",
+          [
+            "iOS/iPadOS 17 이상인 iPhone과 iPad를 지원합니다. 기압을 직접 재려면 기압계가 내장된 기기여야 합니다. Apple Watch 앱은 watchOS 10 이상과 페어링한 iPhone이 필요합니다."
+          ]
+        ],
+        [
+          "기압이 표시되지 않아요",
+          [
+            "iPhone 설정 → 개인정보 보호 및 보안 → 동작 및 피트니스에서 접근이 허용되어 있는지 확인하세요. 기압계가 없는 기기에서도 예보는 볼 수 있지만, 기압을 직접 잴 수는 없습니다."
+          ]
+        ],
+        [
+          "고도가 실제와 달라요",
+          [
+            "기압으로 계산한 고도는 날씨가 바뀌면 조금씩 달라집니다. 야외 화면에서 알고 있는 고도나 현재 해면기압을 입력해 보정하세요."
+          ]
+        ],
+        [
+          "강수 전망이 비어 있거나 일부만 보여요",
+          [
+            "예보를 받으려면 인터넷 연결과 위치 권한이 필요합니다. 분 단위 강수 알림은 Apple 날씨가 지원하는 지역에서만 받을 수 있습니다. 일부 자료가 없으면 있는 자료만으로 계산합니다."
+          ]
+        ],
+        [
+          "기록이나 위젯, 알림이 멈춰요",
+          [
+            "백그라운드 실행, 위젯 새로고침, 실시간 현황은 iOS가 관리합니다. 저전력 모드와 권한, 배터리 설정에 따라 달라집니다. 책상 위 관측소로 쓸 때는 ‘관측소 표시’를 열어두고 전원을 연결하세요."
+          ]
+        ],
+        [
+          "다른 기기가 보이지 않아요",
+          [
+            "각 기기에서 같은 Apple 계정으로 iCloud에 로그인하고, 앱 설정에서 ‘다른 기기와 함께 쓰기’를 켜세요. 설정한 범위 밖의 기기는 목록에는 보이지만 추세 계산에는 합치지 않습니다."
+          ]
+        ],
+        [
+          "데이터를 지우고 싶어요",
+          [
+            "앱의 설정 → ‘모든 데이터 삭제’를 누르세요. 이미 iCloud로 공유된 기록은 iPhone 설정 → [내 이름] → iCloud → 계정 저장 공간 관리에서 따로 지워야 합니다. 자세한 내용은 개인정보 처리방침을 참고하세요."
+          ]
+        ]
+      ]
+    }
   },
   "screens": [
-    {"id": "01-home", "group": 1, "en": "Your daily outlook", "ko": "오늘의 날씨", "enBody": "Rain windows, pressure, and current conditions.", "koBody": "시간대별 강수 가능성과 현재 기압, 기온, 습도."},
-    {"id": "02-prediction-rationale", "group": 1, "en": "Behind the prediction", "ko": "예측 근거", "enBody": "See the sources behind your rain outlook.", "koBody": "어떤 자료로 강수 가능성을 계산했는지 확인."},
-    {"id": "03-chart-lcd", "group": 2, "en": "The LCD barometer", "ko": "LCD 기압계", "enBody": "A pressure profile with an instrument’s character.", "koBody": "큼직한 숫자와 그래프로 보는 기압 변화."},
-    {"id": "04-chart-forecast", "group": 2, "en": "Observation meets forecast", "ko": "관측과 예보 비교", "enBody": "Recorded pressure and a model forecast overlay.", "koBody": "직접 기록한 기압과 예보 그래프를 한 화면에."},
-    {"id": "05-outdoor", "group": 2, "en": "Take the outdoor view", "ko": "야외 활동 기록", "enBody": "Altitude, profiles, and your activity session.", "koBody": "현재 고도와 고도 변화, 누적 상승·하강 높이."},
-    {"id": "06-pressure-flow-map", "group": 2, "en": "Read the pressure flow", "ko": "주변 기압 지도", "enBody": "Nearby station changes and estimated movement.", "koBody": "주변 관측소의 기압 변화와 추정 이동 방향."},
-    {"id": "07-health", "group": 2, "en": "A little personal context", "ko": "증상과 기압 기록", "enBody": "Pressure swings alongside your symptom records.", "koBody": "증상을 기록하고 같은 시기의 기압과 비교."},
-    {"id": "08-climate-zone", "group": 1, "en": "Know your climate", "ko": "우리 지역의 기후", "enBody": "Local Köppen classification and future scenario context.", "koBody": "현재 쾨펜 기후 분류와 미래 기후 시나리오."},
-    {"id": "09-engine-comparison", "group": 1, "en": "Compare the engines", "ko": "예측 엔진 비교", "enBody": "Paired predictions and outcome-based scores.", "koBody": "같은 시점의 예측을 이후 결과와 비교한 점수."},
-    {"id": "10-engine-charts", "group": 1, "en": "Look back. Learn more.", "ko": "예측 결과 그래프", "enBody": "Reliability and recent prediction-versus-outcome charts.", "koBody": "최근 예측과 실제 결과, 신뢰도를 그래프로 확인."},
-    {"id": "11-connected-devices", "group": 3, "en": "Your connected stations", "ko": "연결된 관측소", "enBody": "Same-account stations, pressure offsets, and status.", "koBody": "같은 계정의 관측소와 기압 차이, 연결 상태."},
-    {"id": "12-station-display", "group": 3, "en": "A station for your desk", "ko": "관측소 표시", "enBody": "The dedicated full-screen LCD station display.", "koBody": "전체 화면으로 켜두고 보는 LCD 기압계."},
-    {"id": "13-widgets", "group": 3, "en": "At a glance, at home", "ko": "홈 화면 위젯", "enBody": "LCD and rain-outlook Home Screen widgets.", "koBody": "LCD 기압계와 강수 전망을 홈 화면에서."},
-    {"id": "14-lock-screen", "group": 3, "en": "Keep your station close", "ko": "기압계 실시간 현황", "enBody": "The recording barometer Live Activity.", "koBody": "기록 중인 기압을 잠금 화면에서도 확인."}
+    {
+      "id": "01-home",
+      "group": 1,
+      "en": "Today’s weather",
+      "ko": "오늘의 날씨",
+      "enBody": "Rain chances, pressure, and current conditions.",
+      "koBody": "시간대별 강수 가능성과 현재 기압, 기온, 습도."
+    },
+    {
+      "id": "02-prediction-rationale",
+      "group": 1,
+      "en": "Behind the prediction",
+      "ko": "예측 근거",
+      "enBody": "See the sources behind your rain outlook.",
+      "koBody": "어떤 자료로 강수 가능성을 계산했는지 확인."
+    },
+    {
+      "id": "03-chart-lcd",
+      "group": 2,
+      "en": "LCD barometer",
+      "ko": "LCD 기압계",
+      "enBody": "Big numbers and a graph of pressure change.",
+      "koBody": "큼직한 숫자와 그래프로 보는 기압 변화."
+    },
+    {
+      "id": "04-chart-forecast",
+      "group": 2,
+      "en": "Observation meets forecast",
+      "ko": "관측과 예보 비교",
+      "enBody": "Recorded pressure and a model forecast overlay.",
+      "koBody": "직접 기록한 기압과 예보 그래프를 한 화면에."
+    },
+    {
+      "id": "05-outdoor",
+      "group": 2,
+      "en": "Outdoor tracking",
+      "ko": "야외 활동 기록",
+      "enBody": "Altitude, altitude changes, and total ascent and descent.",
+      "koBody": "현재 고도와 고도 변화, 누적 상승·하강 높이."
+    },
+    {
+      "id": "06-pressure-flow-map",
+      "group": 2,
+      "en": "Nearby pressure map",
+      "ko": "주변 기압 지도",
+      "enBody": "Pressure changes at nearby stations and estimated movement.",
+      "koBody": "주변 관측소의 기압 변화와 추정 이동 방향."
+    },
+    {
+      "id": "07-health",
+      "group": 2,
+      "en": "Symptoms and pressure",
+      "ko": "증상과 기압 기록",
+      "enBody": "Log symptoms and compare them with pressure at the time.",
+      "koBody": "증상을 기록하고 같은 시기의 기압과 비교."
+    },
+    {
+      "id": "08-climate-zone",
+      "group": 1,
+      "en": "Your local climate",
+      "ko": "우리 지역의 기후",
+      "enBody": "Today’s climate type for your area and future climate scenarios.",
+      "koBody": "우리 지역의 기후 유형과 미래 기후 시나리오."
+    },
+    {
+      "id": "09-engine-comparison",
+      "group": 1,
+      "en": "Prediction methods compared",
+      "ko": "예측 방식 비교",
+      "enBody": "Scores from checking saved predictions against outcomes.",
+      "koBody": "같은 시점의 예측을 이후 결과와 비교한 점수."
+    },
+    {
+      "id": "10-engine-charts",
+      "group": 1,
+      "en": "Prediction charts",
+      "ko": "예측 결과 그래프",
+      "enBody": "Recent predictions, outcomes, and reliability in charts.",
+      "koBody": "최근 예측과 실제 결과, 신뢰도를 그래프로 확인."
+    },
+    {
+      "id": "11-connected-devices",
+      "group": 3,
+      "en": "Your connected stations",
+      "ko": "연결된 관측소",
+      "enBody": "Same-account stations, pressure offsets, and status.",
+      "koBody": "같은 계정의 관측소와 기압 차이, 연결 상태."
+    },
+    {
+      "id": "12-station-display",
+      "group": 3,
+      "en": "Station display",
+      "ko": "관측소 표시",
+      "enBody": "A full-screen LCD barometer to leave on.",
+      "koBody": "전체 화면으로 켜두고 보는 LCD 기압계."
+    },
+    {
+      "id": "13-widgets",
+      "group": 3,
+      "en": "Home Screen widgets",
+      "ko": "홈 화면 위젯",
+      "enBody": "The LCD barometer and rain outlook on your Home Screen.",
+      "koBody": "LCD 기압계와 강수 전망을 홈 화면에서."
+    },
+    {
+      "id": "14-lock-screen",
+      "group": 3,
+      "en": "Lock Screen barometer",
+      "ko": "기압계 실시간 현황",
+      "enBody": "Pressure on your Lock Screen while recording.",
+      "koBody": "기록 중인 기압을 잠금 화면에서도 확인."
+    }
   ]
 }

@@ -49,7 +49,18 @@
     });
   });
 
+  // Keep the section when changing language, without replacing native links.
+  document.querySelectorAll('a[hreflang]').forEach(link => {
+    link.addEventListener('click', () => {
+      const destination = new URL(link.href);
+      destination.hash = window.location.hash;
+      link.href = destination.href;
+    });
+  });
+
+  // The gallery and screenshot dialog exist only on the home page.
   const track = document.querySelector('.gallery-track');
+  if (!track) return;
   const cards = [...track.querySelectorAll('.gallery-card')];
   const filters = [...document.querySelectorAll('[data-filter]')];
   const count = document.querySelector('.gallery-count');
@@ -62,7 +73,7 @@
     const group = button.dataset.filter;
     filters.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
     cards.forEach(card => { card.hidden = group !== '0' && card.dataset.group !== group; });
-    count.textContent = `${cards.filter(card => !card.hidden).length} ${count.dataset.countSuffix}`;
+    count.textContent = count.dataset.countTemplate.replace('{n}', cards.filter(card => !card.hidden).length);
     track.scrollTo({ left: 0, behavior: 'instant' });
     updateArrows();
   }));
@@ -126,14 +137,5 @@
   dialog.addEventListener('close', () => {
     document.body.classList.remove('dialog-open');
     opener?.focus({ preventScroll: true });
-  });
-
-  // Keep the section when changing language, without replacing native links.
-  document.querySelectorAll('a[hreflang]').forEach(link => {
-    link.addEventListener('click', () => {
-      const destination = new URL(link.href);
-      destination.hash = window.location.hash;
-      link.href = destination.href;
-    });
   });
 })();

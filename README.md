@@ -4,9 +4,10 @@ The bilingual product website for **Pocket Weather Station / 기상대**, publis
 
 - [English](https://fortranmentis.github.io/pocket_weather_station_hp/)
 - [한국어](https://fortranmentis.github.io/pocket_weather_station_hp/ko/)
-- [App project](https://github.com/fortranmentis/pocket_weather_station)
+- Privacy policy: [English](https://fortranmentis.github.io/pocket_weather_station_hp/privacy/) · [한국어](https://fortranmentis.github.io/pocket_weather_station_hp/ko/privacy/)
+- Support: [English](https://fortranmentis.github.io/pocket_weather_station_hp/support/) · [한국어](https://fortranmentis.github.io/pocket_weather_station_hp/ko/support/)
 
-An Apple-inspired presentation with large typography, open space, a muted LCD-green palette, and actual app screenshots. Includes the three-view app tour, LCD display, pressure-flow map, widgets and device integration, forecast explanation, a filtered 14-screen gallery with keyboard-accessible magnification, data handling, and FAQs. This is an independent project, without Apple affiliation.
+An Apple-inspired presentation with large typography, open space, a muted LCD-green palette, and actual app screenshots. Includes the three-view app tour, LCD display, pressure-flow map, widgets and device integration, forecast explanation, a filtered 14-screen gallery with keyboard-accessible magnification, data handling, and FAQs, plus privacy policy and support pages for the App Store listing. This is an independent project, without Apple affiliation.
 
 ## Develop
 
@@ -21,11 +22,11 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 Open `http://localhost:4173/` or `http://localhost:4173/ko/`.
 
-Edit `scripts/content.json` for both languages, then regenerate with `scripts/build.py`. Shared presentation and interactions live in `assets/style.css` and `assets/app.js`. All local links work beneath the GitHub Pages project path. Change `BASE` in the generator, `sitemap.xml`, and `robots.txt` if the domain or repository path changes.
+Edit `scripts/content.json` for both languages, then regenerate with `scripts/build.py`; it writes the home, privacy, and support pages and `sitemap.xml`. Shared presentation and interactions live in `assets/style.css` and `assets/app.js`. All local links work beneath the GitHub Pages project path. Change `BASE` in the generator and `robots.txt` if the domain or repository path changes. Crawlers read only the domain-root `robots.txt`, so submit `sitemap.xml` in Search Console or list it in the user site's `robots.txt`.
 
 ## Publication
 
-GitHub Pages source: **main branch → / (root)**. `.nojekyll` preserves the plain static site. Push the reviewed HTML, assets, and sources to `main` to update the site. The website repository is separate from the native app repository.
+GitHub Pages source: **main branch → / (root)**. `.nojekyll` preserves the plain static site. Push the reviewed HTML, assets, and sources to `main` to update the site. The website repository is separate from the native app repository, which is private; `check.py` fails if a page links to it.
 
 ## Content and imagery
 
