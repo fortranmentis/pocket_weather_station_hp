@@ -8,6 +8,7 @@
     "hero": "A little closer to\nthe atmosphere.",
     "heroBody": "Feel the change before you step outside. Your device’s barometer, local weather, and a little more perspective. All in one beautifully clear view.",
     "heroLink": "Discover what’s inside", "howLink": "See how it works", "platforms": "For iPhone, iPad, and Apple Watch",
+    "releaseLabel": "Coming soon on the App Store", "releaseBody": "We’re preparing for launch.",
     "heroCaption": "Real app screens. A closer look at the air around you.",
     "intro": [
       ["01", "Sense the subtle.", "Watch atmospheric pressure and its changes with the barometer in a supported device."],
@@ -50,7 +51,7 @@
       ["What works without a connection?", "Local sensor recording, stored observations, and the bundled climate classification can remain useful without a live forecast connection once the needed location is available. Fresh forecasts, airport reports, historical downloads, and iCloud syncing require network access."],
       ["Can I turn an iPad into a desk station?", "Yes, on a device with a supported barometer. Keep it at a fixed location, enable Reference station mode, start recording, and open Station display. The full-screen view keeps the display awake while open. External power is recommended for long sessions."],
       ["Are background updates and alerts continuous?", "iOS controls background execution, widget refreshes, and Live Activities. Permissions, power settings, available data, and region affect updates and alerts. Continuous sensor collection and exact delivery times are not guaranteed."],
-      ["How can I try the app?", "The current source project is version 0.1.0. This site links to the project and build instructions; an App Store download is not linked here. A device build needs Xcode, signing, and the applicable Apple services."]
+      ["How can I try the app?", "Pocket Weather Station is coming soon to the App Store. We’re preparing for launch. In the meantime, you can explore the source project and build instructions. Building version 0.1.0 on a device requires Xcode, signing, and the applicable Apple services."]
     ],
     "closing": "Small device.\nWide perspective.", "closingBody": "Take a closer look at Pocket Weather Station.", "projectLink": "Explore the project", "sourceLink": "Website source", "docsLink": "App documentation", "backTop": "Back to top",
     "footerNote": "An independent app project. Not affiliated with or endorsed by Apple. Apple, iPhone, iPad, and Apple Watch are trademarks of Apple Inc.", "footerCaution": "Weather estimates depend on available data. Use official weather information for outdoor decisions. Health features support personal observation, not diagnosis."
@@ -61,7 +62,7 @@
     "skip": "본문으로 건너뛰기", "nav": ["소개", "주요 경험", "작동 원리"], "explore": "앱 둘러보기",
     "eyebrow": "주머니 속 기기로 만나는, 나만의 기상대",
     "hero": "날씨를 읽는,\n나만의 기상대.", "heroBody": "밖으로 나서기 전, 변화의 흐름을 느껴보세요. 내 기기의 기압계와 우리 동네 날씨, 그리고 더 넓은 관점을 명료한 하나의 화면에.",
-    "heroLink": "기상대 만나보기", "howLink": "작동 원리 살펴보기", "platforms": "iPhone, iPad, Apple Watch와 함께", "heroCaption": "실제 앱 화면으로 만나는, 내 주변 공기의 변화.",
+    "heroLink": "기상대 만나보기", "howLink": "작동 원리 살펴보기", "platforms": "iPhone, iPad, Apple Watch와 함께", "releaseLabel": "App Store 출시 예정", "releaseBody": "정식 출시를 준비하고 있습니다.", "heroCaption": "실제 앱 화면으로 만나는, 내 주변 공기의 변화.",
     "intro": [["01", "작은 변화까지 감지.", "기압계가 내장된 지원 기기로 대기압과 시간에 따른 변화를 살펴보세요."], ["02", "더 넓은 맥락으로 이해.", "내 관측을 예보, 주변 관측소, 지역 기후와 함께 읽어보세요."], ["03", "내 일상에 맞는 관점.", "우산이 필요한 아침부터 산을 오르는 오후까지. 오늘에 맞는 화면을 만나보세요."]],
     "experienceEyebrow": "하루를 바라보는 세 가지 관점", "experienceTitle": "나의 날씨를,\n다양한 시선으로.", "experienceBody": "하나의 기상대, 세 가지 관점. 일상과 야외 활동, 내 몸의 기록을 오가며 살펴보세요.", "tabsLabel": "앱의 세 가지 관점 살펴보기",
     "experiences": [
@@ -89,7 +90,7 @@
       ["인터넷 연결이 없어도 사용할 수 있나요?", "필요한 위치 정보가 확보되어 있다면 로컬 센서 기록, 저장한 관측, 내장 기후 분류 등을 활용할 수 있습니다. 최신 예보, 공항 관측, 과거 자료 다운로드, iCloud 동기화에는 네트워크가 필요합니다."],
       ["iPad를 책상 위 관측소로 쓸 수 있나요?", "기압계가 내장된 지원 기기라면 가능합니다. 고정된 위치에 두고 기준 관측소 모드를 켠 뒤 기록을 시작하고 관측소 표시를 여세요. 전체 화면이 열려 있는 동안 화면 꺼짐을 막습니다. 오래 사용한다면 외부 전원 연결을 권장합니다."],
       ["백그라운드 기록과 알림은 계속 실행되나요?", "백그라운드 실행, 위젯 갱신, 실시간 현황은 iOS가 관리합니다. 권한, 전원 설정, 데이터, 지역에 따라 업데이트와 알림이 달라집니다. 연속 센서 기록이나 정확한 전달 시각을 보장하지는 않습니다."],
-      ["앱은 어떻게 사용해볼 수 있나요?", "현재 소스 프로젝트 버전은 0.1.0입니다. 이 사이트에서는 프로젝트와 빌드 안내로 연결하며, App Store 다운로드 링크는 제공하지 않습니다. 기기 빌드에는 Xcode, 서명, 해당 Apple 서비스 설정이 필요합니다."]
+      ["앱은 어떻게 사용해볼 수 있나요?", "기상대는 App Store 출시를 준비하고 있습니다. 정식 출시 전에는 프로젝트 소스와 빌드 안내를 살펴볼 수 있습니다. 현재 소스 버전은 0.1.0이며, 직접 기기에 빌드하려면 Xcode, 서명, 해당 Apple 서비스 설정이 필요합니다."]
     ],
     "closing": "작은 기기로,\n더 넓은 날씨를.", "closingBody": "기상대 프로젝트를 자세히 살펴보세요.", "projectLink": "프로젝트 살펴보기", "sourceLink": "웹사이트 소스", "docsLink": "앱 문서", "backTop": "맨 위로",
     "footerNote": "Apple과 제휴하거나 Apple의 보증을 받지 않은 독립 앱 프로젝트입니다. Apple, iPhone, iPad, Apple Watch는 Apple Inc.의 상표입니다.", "footerCaution": "날씨 추정은 가용 데이터에 따라 달라집니다. 야외 활동에는 공식 기상 정보를 함께 확인하세요. 건강 기능은 개인 관찰을 돕는 기능이며 진단을 제공하지 않습니다."

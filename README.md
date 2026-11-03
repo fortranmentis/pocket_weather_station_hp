@@ -29,7 +29,7 @@ GitHub Pages source: **main branch → / (root)**. `.nojekyll` preserves the pla
 
 ## Content and imagery
 
-Copy was checked against the app README and project settings at app revision `cfc10680f52db7566c1e9a20aca38054d79b8761` (2026-11-03). Source project version: `0.1.0`. The site does not imply App Store availability or measured forecast improvements.
+Copy was checked against the app README and project settings at app revision `cfc10680f52db7566c1e9a20aca38054d79b8761` (2026-11-03). Source project version: `0.1.0`. The site announces an upcoming App Store launch, as requested by the project owner, without a release date or a live download link. It does not imply current store availability or measured forecast improvements.
 
 The 14 supplied English screenshots have full-resolution JPEGs and 600-pixel variants; their labels and example values are preserved. Korean page copy is localized, while the screenshots remain in English. The app icon comes from the current app asset catalog. Website images are copies; native app assets and original screenshots were not modified.
 
