@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate two complete, indexable pages. No runtime framework or dependencies."""
 import json
+import hashlib
 from html import escape
 from pathlib import Path
 
@@ -22,6 +23,7 @@ def arrow(direction='right'):
 
 def build(lang):
     c = DATA[lang]
+    style_version = hashlib.sha256((ROOT / 'assets/style.css').read_bytes()).hexdigest()[:12]
     prefix = '../' if lang == 'ko' else './'
     screens = {s['id']: s for s in DATA['screens']}
     url = BASE + ('ko/' if lang == 'ko' else '')
@@ -63,7 +65,7 @@ def build(lang):
   <meta name="theme-color" content="#f8f9f6"><meta name="color-scheme" content="light">
   <link rel="canonical" href="{url}"><link rel="alternate" hreflang="en" href="{BASE}"><link rel="alternate" hreflang="ko" href="{BASE}ko/"><link rel="alternate" hreflang="x-default" href="{BASE}">
   <meta property="og:type" content="website"><meta property="og:title" content="{e(c['title'])}"><meta property="og:description" content="{e(c['description'])}"><meta property="og:url" content="{url}"><meta property="og:image" content="{BASE}assets/social-preview.jpg"><meta property="og:image:alt" content="Pocket Weather Station — iPhone app screenshots"><meta property="og:locale" content="{'ko_KR' if lang=='ko' else 'en_US'}"><meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" type="image/png" href="{prefix}assets/app-icon.png"><link rel="apple-touch-icon" href="{prefix}assets/app-icon.png"><link rel="stylesheet" href="{prefix}assets/style.css">
+  <link rel="icon" type="image/png" href="{prefix}assets/app-icon.png"><link rel="apple-touch-icon" href="{prefix}assets/app-icon.png"><link rel="stylesheet" href="{prefix}assets/style.css?v={style_version}">
   <script src="{prefix}assets/app.js" defer></script>
 </head>
 <body id="top" data-asset-prefix="{prefix}">
